@@ -1,8 +1,8 @@
 Metadata-Version: 1.1
-Name: Pi7SegPy
+Name: CHIP7SegPy
 Version: 0.1.0
 Summary: Easily use Multiple 7 segment displays connected to 74HC595 and Other Shift registers with your Raspberry Pi
-Home-page: https://github.com/shrikantpatnaik/Pi7SegPy
+Home-page: https://github.com/PhoGGy/CHIP7SegPy
 Author: Shrikant Patnaik
 Author-email: me@shrikantpatnaik.com
 License: MIT
