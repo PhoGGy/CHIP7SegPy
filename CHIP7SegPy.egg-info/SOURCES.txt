@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+CHIP7SegPy.py
+README.rst
+setup.cfg
+setup.py
+CHIP7SegPy.egg-info/PKG-INFO
+CHIP7SegPy.egg-info/SOURCES.txt
+CHIP7SegPy.egg-info/dependency_links.txt
+CHIP7SegPy.egg-info/pbr.json
+CHIP7SegPy.egg-info/requires.txt
+CHIP7SegPy.egg-info/top_level.txt

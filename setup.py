@@ -8,16 +8,16 @@ def read(*paths):
     return f.read()
 
 setup(
-  name='Pi7SegPy',
+  name='CHIP7SegPy',
   version='0.1.0',
-  description='Easily use Multiple 7 segment displays connected to 74HC595 and Other Shift registers with your Raspberry Pi',
+  description='Easily use Multiple 7 segment displays connected to 74HC595 and Other Shift registers with your Nextthing CHIP',
   long_description=(read('README.rst')),
-  url='https://github.com/shrikantpatnaik/Pi7SegPy',
+  url='https://github.com/PhoGGy/CHIP7SegPy',
   license='MIT',
   author='Shrikant Patnaik',
   author_email='me@shrikantpatnaik.com',
-  py_modules=['Pi7SegPy'],
-  install_requires=['PiShiftPy'],
+  py_modules=['CHIP7SegPy'],
+  install_requires=['CHIPShiftPy'],
   include_package_data=True,
   classifiers=[
     'Development Status :: 5 - Production/Stable',

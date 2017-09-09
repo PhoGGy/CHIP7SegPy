@@ -1,4 +1,4 @@
-import PiShiftPy as shift
+import CHIPShiftPy as shift
 
 available_chars = {
   0: 0b11000000,
@@ -30,15 +30,15 @@ available_chars = {
   ' ': 0b11111111
 }
 
-data = 18
-clock = 23
-latch = 24
+data = "CSID0"
+clock = "CSID1"
+latch = "CSID2"
 chain = 2
 displays = 1
 common_cathode = False
 
 
-def init(data_pin=18, clock_pin=23, latch_pin=24, registers=1, no_of_displays=1, common_cathode_type=False):
+def init(data_pin="CSID0", clock_pin="CSID1", latch_pin="CSID2", registers=1, no_of_displays=1, common_cathode_type=False):
     global data, clock, latch, chain, common_cathode, displays
     data = data_pin
     clock = clock_pin
